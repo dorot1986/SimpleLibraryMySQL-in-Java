@@ -3,6 +3,20 @@ import java.util.Scanner;
 /**
  * Created by Dorota Marszałek on 2017-03-01.
  */
+
+/*Stwórzmy następujący projekt (połączenie z dowolną bazą danych):
+     Projekt powinien symulować działanie biblioteki.
+     Zaimplementuj następujące funkcjonalności:
+        - dodawanie książek do biblioteki
+        - dodawanie osób do biblioteki
+        - dodawanie wypożyczeń do biblioteki
+        - edycja danych osób w bibliotece
+        - wyświetlanie wszystkich książek
+        - wyświetlanie wszystkich wypożyczeń
+        - wyświetlanie wszystkich osób
+        - usuwanie konkretnej osoby*/
+
+
 public class Main {
     public static void main(String[] args) {
         UserDao uDao = new UserDao();
